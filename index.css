@@ -1,0 +1,69 @@
+.page {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 20px;
+  gap: 20px;
+  background-color: #dcdcdc;
+  font-size: 14px;
+}
+
+.title {
+  margin: 0 0 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ndash {
+  line-height: 27px;
+}
+
+.input {
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+.input_type_end {
+  text-align: left;
+}
+
+.input_type_start {
+  text-align: right;
+}
+
+.input_type_result {
+  font-weight: bold;
+}
+
+.input_type_result::placeholder {
+  font-weight: normal;
+}
+
+.two-columns .input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.input:disabled {
+  background-color: #dcdcdc;
+}
+
+.result-label {
+  padding:0 10px 0 5px;
+  text-transform: uppercase;
+}
+
+.button {
+  padding: 10px;
+  text-transform: uppercase;
+}

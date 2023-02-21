@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title calss="title">Расчеты выплат Яндекс.Практикум</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body class="page">
+    <h1 class="title">Расчеты выплат</h1>
+
+    <input class="input input_type_payment" type="date" id="paymentDateInput" />
+    <div class="two-columns">
+      <input class="input input_type_end" type="date" id="endDateInput" disabled />
+      <span class="ndash">&ndash;</span>
+      <input class="input input_type_start" type="date" id="startDateInput" disabled />
+    </div>
+
+    <div class="two-columns">
+      <label for="resultInput" class="result-label">итого:</label>
+      <input class="input input_type_result" type="text" id="resultInput" placeholder="Суммы выплат" disabled />
+    </div>
+    <button class="button" id="calculateBtn">Рассчитать</button>
+  </body>
+</html>
